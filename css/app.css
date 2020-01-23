@@ -1,18 +1,34 @@
 body {
     text-align: center;
+    height: 100vh;
+    background-color: lightyellow;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
     color: orange;
 }
+table{
+    margin: 0 auto;
+}
 
-/* .board{
-    position: absolute;
-    left: 550px;
+/* timer {
+  
 } */
 
-.board td {
-    width: 50px;
-    height: 50px;
-    text-align: center;
+button{
+    margin: 20px;
 }
+.board td {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.smiley{
+    cursor:pointer;
+    border-radius:5px;
+	margin: 5px;
+}
+
