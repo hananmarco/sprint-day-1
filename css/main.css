@@ -1,0 +1,89 @@
+.game-board td {
+    border: 1px solid gray;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 20%;
+}
+
+.game-stats th {
+    border: 1px solid gray;
+    width: 30px;
+    height: 35px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 20%;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-style: italic;
+}
+
+.game-stats {
+    width: fit-content;
+    margin: auto;
+}
+
+.mine-count {
+    text-align: center;
+    margin: 10px;
+    position: relative;
+    right: 90px;
+    color: rgb(212, 4, 4);
+}
+
+.seconds-count {
+    text-align: center;
+    margin: 10px;
+    position: relative;
+    left: 90px;
+    color: rgb(212, 4, 4);
+}
+
+.smiley {
+    position: relative;
+    left: 15px;
+}
+
+table {
+    margin: 20px auto;
+}
+
+.shown.bomb {
+    background-color: red;
+}
+
+.levels button {
+    font-size: 12px;
+    border-radius: 50px;
+}
+
+.shown {
+    background-color: black;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+h2 {
+    text-align: center;
+}
+
+.levels {
+    width: fit-content;
+    margin: auto;
+}
+
+.best-times {
+    width: 280px;
+    margin: auto;
+}
+
+h4 {
+    text-align: center;
+}
