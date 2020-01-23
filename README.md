@@ -1,1 +1,0 @@
-# sprint-day-1
